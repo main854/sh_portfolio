@@ -1,0 +1,50 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;color: #ffffff;}
+
+header{background-color: #272727;height: 6rem;}
+header > nav{margin: auto;display: flex;justify-content: space-between;align-items: center;}
+header > nav > .logo{display: inline-block;padding: 1.4rem 0rem 0.8rem 4.0rem;}
+header > nav > .menu{display: inline-block;padding-right: 4.0rem;}
+
+header > .nav_menu{position: relative;display: none;}
+header > .nav_menu > ul{display: inline-block;width: 100%;padding: 0rem 0rem;}
+header > .nav_menu > ul > li{list-style: none;text-align: right;background-color: #E6E6E6;padding: 1.3rem 2.3rem;border-bottom: 1px solid #B5B5B5;}
+header > .nav_menu > ul > li > a{font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;color: #272727;}
+
+header > .nav_menu.active{display: flex;}
+
+section > .top{background-image: url('../img/m_i_03_keyvisual.png');height: 64rem;text-align: center;}
+
+
+section > .profile{background-image: url('../img/m_i_05_pro_back.png');height: 78rem;text-align: center;}
+section > .profile > .pf_01{padding-top: 3.3rem;}
+
+footer{background-color: #707070;height: 16.1rem;text-align: center;}
+footer > img{padding-top: 2.2rem;}
+
+#pr{height: 18rem;width: 100%;background-size: cover;background-attachment: fixed;overflow: hidden;}
+.p1{background-image: url('../img/m_pf_tit_bg.png');}
+.posi{margin-top: 6.9rem;text-align: center;}
+
+/*--서브01--*/
+section > .sub_01_cont{background-color: #ffffff;height: 153.2rem;text-align: center;}
+section > .sub_01_cont > img{padding-top: 1.2rem;}
+
+/*--서브02--*/
+section > .sub_02_cont{background-color: #272727;height: 122.3rem;text-align: center;}
+
+/*--서브03--*/
+section > .sub_03_cont{background-color: #272727;height: 139.6rem;text-align: center;}
+
+/*--서브04--*/
+section > .sub_04_cont{background-color: #ffffff;height: 258.0rem;text-align: center;}
+
+/*--서브05--*/
+section > .sub_05_cont{background-color: #ffffff;height: 185.5rem;text-align: center;}
+section > .sub_05_cont > img{padding-top: 1.2rem;}
+
+/*--서브06--*/
+section > .sub_06_cont{background-color: #ffffff;height: 153.6rem;text-align: center;}
